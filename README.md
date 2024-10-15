@@ -55,8 +55,8 @@ The video will start downloading to your device.
 
 ## API Endpoints
 
-1.**POST /fetch_video_info:** Accepts a JSON object containing the YouTube URL and returns available video formats and qualities.
-2.**GET /download_video:** Accepts the URL and selected quality to download the video.
+  1.**POST /fetch_video_info:** Accepts a JSON object containing the YouTube URL and returns available video formats and qualities.
+  2.**GET /download_video:** Accepts the URL and selected quality to download the video.
 
 ## Troubleshooting
 
@@ -67,6 +67,6 @@ The video will start downloading to your device.
 This project is licensed under the MIT License.
 
 ## Author
-Jhanesh V
-jhaneshvanka@gmail.com
-https://github.com/Jhanesh
+- Jhanesh V
+- jhaneshvanka@gmail.com
+- https://github.com/Jhanesh
