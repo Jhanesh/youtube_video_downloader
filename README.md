@@ -39,24 +39,24 @@ This project is a simple YouTube video downloader built using FastAPI for the ba
    ```bash
    uvicorn app:app --reload
 2.**Open the web application:**
-In your web browser, navigate to the index.html file located in the project directory to access the user interface.
+  In your web browser, navigate to the index.html file located in the project directory to access the user interface.
 
 3.**Fetch Video Information:**
-Paste the YouTube video URL into the input box provided.
-Click the "Fetch Video Info" button to retrieve the video details.
+  --Paste the YouTube video URL into the input box provided.
+  --Click the "Fetch Video Info" button to retrieve the video details.
 
 4.**Select Video Quality:**
-After fetching the video info, a dropdown menu will display the available video quality options.
-Choose your preferred quality from the dropdown list.
+  --After fetching the video info, a dropdown menu will display the available video quality options.
+  --Choose your preferred quality from the dropdown list.
 
 5.**Download the Video:**
-Click the "Download" button to initiate the download of the video in the selected quality.
-The video will start downloading to your device.
+  --Click the "Download" button to initiate the download of the video in the selected quality.
+  --The video will start downloading to your device.
 
 ## API Endpoints
 
-  1.**POST /fetch_video_info:** Accepts a JSON object containing the YouTube URL and returns available video formats and qualities.
-  2.**GET /download_video:** Accepts the URL and selected quality to download the video.
+--**POST /fetch_video_info:** Accepts a JSON object containing the YouTube URL and returns available video formats and qualities.
+--**GET /download_video:** Accepts the URL and selected quality to download the video.
 
 ## Troubleshooting
 
