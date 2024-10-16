@@ -25,7 +25,7 @@ This project is a simple YouTube video downloader built using FastAPI for the ba
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/youtube-video-downloader.git
+   https://github.com/Jhanesh/youtube_video_downloader.git
    cd youtube-video-downloader
 
 2. **yt-dlp uvicorn**
